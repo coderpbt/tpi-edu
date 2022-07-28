@@ -2,7 +2,6 @@
 .my-img{
   filter: brightness(80%);
 }
-
 .social-links a {
 	font-size: 16px;
 	display: flex;
@@ -16,4 +15,16 @@
 	width: 40px;
 	height: 40px;
   text-decoration: none;
+}
+@media all and (max-width:575px) {
+	.my-img{
+		height: 300px;
+		object-fit: cover;
+	}
+	.banner-sec p{
+		width: 90% !important;
+	}
+	.common-heading p{
+		width: 100% !important;
+	}
 }
